@@ -6,7 +6,6 @@ This project involves analyzing hyperspectral imaging data to predict DON concen
 ## Folder Structure
 - **`objective.docx`** – Contains key insights about the data.
 - **`ImagOAI.ipynb`** – Jupyter Notebook with code implementation, including EDA, data transformation, PCA, and model building.
-- **`plots/`** – Directory containing visualizations and plots.
 
 ## Technologies Used
 The following Python libraries were utilized:
@@ -22,7 +21,7 @@ The following Python libraries were utilized:
 - **EDA was crucial** to understanding the data structure and patterns.
 - **Data transformation techniques** like Yeo-Johnson and Huber loss were applied due to skewed data.
 - **PCA was used** for dimensionality reduction to improve model efficiency.
-- **Model performance evaluation:** Achieved **93% R-squared**, but high MAE emphasized the need to prioritize reducing MAE for skewed data.
+- **Model performance evaluation:** Achieved **Good R-squared**
 - **MLflow was explored** for experiment tracking but wasn’t fully implemented due to time constraints.
 - **Reflectance values were key** in classifying whether corn is toxic or not.
 
